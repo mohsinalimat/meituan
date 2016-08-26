@@ -35,6 +35,8 @@
 		881EB6651D6FEB650016B7E7 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EB6551D6FEB650016B7E7 /* UIImageView+HighlightedWebCache.m */; };
 		881EB6661D6FEB650016B7E7 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EB6571D6FEB650016B7E7 /* UIImageView+WebCache.m */; };
 		881EB6671D6FEB650016B7E7 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EB6591D6FEB650016B7E7 /* UIView+WebCacheOperation.m */; };
+		881EB66A1D700ED10016B7E7 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 881EB6691D700ED10016B7E7 /* nav.png */; };
+		881EB66C1D7010530016B7E7 /* meituan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 881EB66B1D7010530016B7E7 /* meituan.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,8 @@
 		881EB6581D6FEB650016B7E7 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		881EB6591D6FEB650016B7E7 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		881EB6681D6FEBC90016B7E7 /* zws.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zws.pch; sourceTree = "<group>"; };
+		881EB6691D700ED10016B7E7 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		881EB66B1D7010530016B7E7 /* meituan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = meituan.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,9 +168,11 @@
 			children = (
 				881EB5EB1D6FE6950016B7E7 /* AppDelegate.h */,
 				881EB5EC1D6FE6950016B7E7 /* AppDelegate.m */,
+				881EB6691D700ED10016B7E7 /* nav.png */,
 				881EB6341D6FE8A10016B7E7 /* meituan.json */,
 				881EB6311D6FE8400016B7E7 /* ViewController.h */,
 				881EB6321D6FE8400016B7E7 /* ViewController.m */,
+				881EB66B1D7010530016B7E7 /* meituan.gif */,
 				881EB63C1D6FEB650016B7E7 /* SDWebImage */,
 				881EB61B1D6FE7CA0016B7E7 /* TableView */,
 				881EB5F11D6FE6950016B7E7 /* Main.storyboard */,
@@ -365,6 +371,8 @@
 				881EB5F51D6FE6950016B7E7 /* Assets.xcassets in Resources */,
 				881EB5F31D6FE6950016B7E7 /* Main.storyboard in Resources */,
 				881EB6351D6FE8A10016B7E7 /* meituan.json in Resources */,
+				881EB66C1D7010530016B7E7 /* meituan.gif in Resources */,
+				881EB66A1D700ED10016B7E7 /* nav.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +646,7 @@
 				881EB6141D6FE6950016B7E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881EB6151D6FE6950016B7E7 /* Build configuration list for PBXNativeTarget "meituanTests" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +655,7 @@
 				881EB6171D6FE6950016B7E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881EB6181D6FE6950016B7E7 /* Build configuration list for PBXNativeTarget "meituanUITests" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +664,7 @@
 				881EB61A1D6FE6950016B7E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
